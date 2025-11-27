@@ -1,0 +1,5 @@
+export MYSQL_HOST="jdbc:mysql://database-1.cmryeuiue0wo.us-east-1.rds.amazonaws.com:3306/datastore?createDatabaseIfNotExist=true"
+export MYSQL_USERNAME="admin"
+export MYSQL_PASSWORD="samir123"
+
+nohup java -jar datastore-0.0.7.jar > /var/log/app/nohup.out 2>&1 &
