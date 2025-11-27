@@ -1,3 +1,5 @@
+mvn clean package -Dspring.profiles.active=build
+
 export MYSQL_HOST="jdbc:mysql://database-1.cmryeuiue0wo.us-east-1.rds.amazonaws.com:3306/datastore?createDatabaseIfNotExist=true"
 export MYSQL_USERNAME="admin"
 export MYSQL_PASSWORD="samir123"
